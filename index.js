@@ -26,7 +26,7 @@ app.listen(port, async () => {
         const page = await browser.newPage();
         
         console.log("Abriendo el bot foca.bot...");
-        await page.goto('https://jere32-game.github.io/32-GPT/');
+        await page.goto('https://jere32-game.github.io/la-foca/');
         console.log("¡Página abierta con éxito! Tu bot ahora está conectado a Discord.");
         
         // No ponemos "browser.close()" para que la pestaña se quede abierta infinitamente.
